@@ -13,7 +13,7 @@ function DropdownComp() {
     <DropdownMenu.Root>
       <DropdownMenu.Trigger asChild>
         <button
-          className="inline-flex items-center justify-center rounded-xl bg-gray-100 outline-none p-1.5 text-lg font-bold"
+          className="inline-flex items-center justify-center cursor-pointer rounded-xl bg-gray-100 outline-none p-1.5 text-lg font-bold"
           aria-label="Customise options"
         >
           Toggle
@@ -70,3 +70,5 @@ function DropdownComp() {
 }
 
 export default DropdownComp;
+
+

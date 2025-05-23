@@ -1,10 +1,11 @@
 import "./App.css";
 import "@solana/wallet-adapter-react-ui/styles.css";
 import DropdownComp from "./Modal";
+import Sidebar from "./components/Sidebar";
 function App() {
   return (
     <>
-     <DropdownComp />
+     <Sidebar />
     </>
   );
 }
